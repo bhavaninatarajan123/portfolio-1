@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#reg-form{
+    padding-top: 5%;
+}
+#reg-content{
+    padding: 10px;
+}
+input{
+    margin:15px;
+    margin-left:20%;
+}
+#input-field-1, #input-field-2, #input-field-3 {
+                                                 padding : 15px;
+                                                 padding-top: 10px;
+                                                 width:65%;
+                                                 padding: 10px;
+                                                 padding-bottom: 10px;
+
+
+}
+
+h1 ,h3{
+    text-align: center;
+    padding:10px;
+}
+#card{
+    background-color:#dcdcdc;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 60%;
+    height: 70%;
+    margin: auto;
+    
+
+}
+/*
+#reg-btn{
+    width:50%;
+padding-left: 33%;
+    
+
+}*/
+#reg-btn input{
+  /*  width:50%;*/
+    
+    background-color:gray;
+    padding:10px;
+    padding-left: 10%;
+    padding-right: 10%;
+       
+}
+#reg-btn input:hover{
+    background-color:#ffff;
+}
+#para-1,#para-2,#para-3{
+    padding-left: 20%;
+}
+/*
+.login-button{
+    padding-left: 25%;
+    width:100%;
+ } */
+
+ #button-log{
+    
+    padding: 15px;
+    background-color: gray;
+ }
+
+ #login-button input:hover{
+    background-color:#ffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:360px){
+
+    #reg-btn input{
+        
+         padding-left: 20%;
+          }
+
+          
+#reg-btn{
+    width:60%;
+    padding-left:30%;
+}
+ 
+#login-button{
+
+    width:100%;
+ }
+ }
+
+ 
+
+@media(min-width:660px){
+
+   #reg-btn input{
+         width:50%;
+        padding-left: 20%;
+         }
+
+         
+#reg-btn{
+    width:80%;
+padding-left: 20%;
+    
+
+}
+
+#login-button{
+    padding-left:7%;
+    width:100%;
+ }
+     
+}
+
+@media(min-width:1000px){
+    #reg-btn input{
+        width:70%;
+    
+        
+    }
+
+    
+#reg-btn{
+    width:60%;
+     padding-left:35%;
+    
+
+}
+
+#login-button{
+    padding-left:28%;
+    width: 80%;
+    
+    
+ }
+     
+        }

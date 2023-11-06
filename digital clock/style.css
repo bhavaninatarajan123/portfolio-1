@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.dig-row{
+   /* width: 50%;*/
+  /*  height: 80vh;*/
+    margin: auto;
+    background-color:#000;
+    margin-top: 4%;
+    /*border-radius :20%;*/
+    
+    
+}
+
+
+
+
+.clock {
+    position: absolute;
+  /*  top: 40%;
+    left:10%;
+    padding-left: 20%;*/
+    color:red;
+  /*  font-size: 80px;*/
+    
+    letter-spacing: 7px;
+    
+    
+}
+.text{
+    color:#ffff;
+}
+
+
+
+.date-10{
+  /* font-size: 30px;
+    padding-left:5%;
+    padding-top:9%;
+    padding: 10px;*/
+    text-align: center;
+}
+/*
+.digital-day {
+    display: flex;
+    padding-left: 30%;
+    padding-top: 10%;
+    color: red;
+    
+}
+.day-2{
+    color:#ffff;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.today-day{
+    display: flex;
+    padding-top:30%;
+    padding-left: 13%;
+    font-size:200%;
+}
+
+.analog{
+    padding-left:20px;
+}*/
+
+
+

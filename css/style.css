@@ -1,0 +1,595 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: serif;
+    
+}
+h1{
+    font-size: 27px;
+    
+}
+h2{
+    font-size: 23px;
+}
+h3{
+    font-size: 19px; 
+}
+h4{
+    font-size: 15px;
+}
+
+
+/* home section*/
+
+.home-1{
+   width:80%; 
+    padding-left:15%;
+    
+    text-align: center;
+    height: 75vh;
+   padding-bottom:10%;
+    padding-top: 2%;
+}
+    
+#home-sect h1{
+    padding-bottom: 3%;
+    color:white;
+}
+#home-sect h2{
+    color:black;
+    padding-right: 15%;
+    
+}
+
+.container-home{
+    
+    padding: 20px;
+    background-color: #dcdcdc;
+    border-radius: 150px 60px;
+    border: 5px solid gray;
+    
+
+}
+/*.home-col {
+      display: flex;
+      
+}*/
+.home-col img {
+    padding-left:15%;
+    height: 350px;
+}
+
+.home-name{
+    padding-top: 20%;
+    padding-left: 7%;
+    
+
+}
+.home-name h2{
+    padding-left: 35px;
+}
+
+.home-name h4{
+     padding-left: 20px;
+     padding-bottom:15px;
+}
+
+.home-btn a{
+    padding: 10px;
+    background-color:hsl(251, 78%, 38%);
+    border: 3px solid gray;
+    border-radius: 30px 10px;
+    color:#ffff;
+    text-decoration: none;
+    padding-left: 5%;
+    
+}
+.home-btn a:hover{
+    background-color: plum;
+}
+
+/*education and skills*/
+
+.education{
+    padding-top: 13%;
+    padding-left: 10%;
+}
+.education h1 ,h2 {
+    padding-left: 30%;
+    color: white;
+    
+    
+}
+
+
+/* 
+.edu-row h1{
+    padding: 10px;
+    
+} */
+/*
+.edu-row{
+    display: flex;
+} */
+
+.edu-col{
+   position: relative;
+/*  width: 40%; */
+   padding-top: 10px;
+   padding-left: 5%;
+   
+}
+/*
+.edu-col-2{
+    width:80%;
+    
+}*/
+
+.edu-col-2 h2{
+            padding-right: 20%;
+}
+.edu-card{
+    margin:5px;
+    background-color: #dcdcdc;
+    border-radius: 60px 20px;
+    border: 5px solid gray;
+    
+    text-align: center;   
+}
+
+
+.progrees-row{
+    position: relative;
+    display: flex;  
+    width: 120%;
+    padding-bottom: 17px;
+    padding-top: 10%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.skill{
+    height:5px;
+    width:100%;
+    background-color: #cc9ae4;
+}
+.skill .first{
+    width:1%;
+    background-color:hsl(251, 78%, 38%);
+    height:5px;
+    animation: bar 0.5s 0.5s cubic-bezier(0.1,0,0.1,0.5) forwards;
+    transform-origin: left;
+}
+.skill .sec{
+    width:1%;
+    background-color:hsl(251, 78%, 38%);
+    height:5px;
+    animation: bar-2 0.5s 0.5s cubic-bezier(0.1,0,0.1,0.5) forwards;
+    transform-origin: left;
+}
+@keyframes bar{
+   
+    100%{
+        transform: scaleX(80);
+    }
+}
+@keyframes bar-2{
+   
+    100%{
+        transform: scaleX(75);
+    }
+}
+.skill .third{
+    width:1%;
+    background-color:hsl(251, 78%, 38%);
+    height:5px;
+    animation: bar-3 0.5s 0.5s cubic-bezier(0.1,0,0.1,0.5) forwards;
+    transform-origin: left;
+}
+
+.skill .four{
+    width:1%;
+    background-color:hsl(251, 78%, 38%);
+    height:5px;
+    animation: bar-4 0.5s 0.5s cubic-bezier(0.1,0,0.1,0.5) forwards;
+    transform-origin: left;
+}
+
+
+.skill .five{
+    width:1%;
+    background-color:hsl(251, 78%, 38%);
+    height:5px;
+    animation: bar-5 0.5s 0.5s cubic-bezier(0.1,0,0.1,0.5) forwards;
+    transform-origin: left;
+}
+
+
+@keyframes bar-3{
+   
+    100%{
+        transform: scaleX(15);
+    }
+}
+
+@keyframes bar-4{
+   
+    100%{
+        transform: scaleX(35);
+    }
+}
+
+@keyframes bar-5{
+   
+    100%{
+        transform: scaleX(0);
+    }
+}
+.skill-card{
+    padding: 30px;
+    background-color: #dcdcdc;
+   /* width:60%;*/
+    margin:20px;
+    border-radius: 5%;
+    border-radius: 80px 30px;
+    text-align: center;
+    border: 5px solid gray;
+    height: 115vh;
+    
+
+}
+.skills{
+    padding-top:20px;
+    padding-left: 10px;
+    width:70%;
+}
+
+/* my creation section*/
+.creation{
+    
+    width: 90%;
+    padding-left: 10%;
+    
+}
+.creat-col{
+    display: flex;
+    flex-wrap: wrap;   
+}
+.creat-row h1{
+    padding-left: 35%;
+    padding-top: 3%;
+    color: white;
+}
+.web-1{
+    padding: 30px;
+    background-color: #dcdcdc;
+    /*width:33%;*/
+    margin:20px;
+    border-radius: 5%;
+    border-radius: 80px 30px;
+    text-align: center;
+    border: 5px solid gray;
+    
+}
+.web-1 img{
+    height: 175px;
+    width: 270px;
+    padding-bottom: 5%;
+
+}
+.web-1 a{
+    text-decoration: none;
+    padding: 10px;
+    background-color:hsl(251, 78%, 38%);
+    border: 3px solid gray;
+    border-radius: 30px 10px;
+    color:#ffff;
+    text-decoration: none;
+}
+
+.web-1 a:hover{
+    background-color: plum;
+}
+
+/* about me section */
+
+.container-about h1{
+        padding-left:40%;
+        color: white;
+        
+        
+}
+.about-row{
+ /*   display: flex; */
+ /*   padding-right: 15%;*/
+    width: 100%;
+     padding-left: 8%;
+    
+
+    
+}
+.about-col{
+  /*  width: 40%; */
+    
+    background-color: #dcdcdc;
+    border-radius: 70px 30px;
+  /*  height: 55vh;*/
+    margin: 5%;
+    text-align: center;
+    padding-top:7px;
+    border: 5px solid gray;
+    
+
+    
+}
+
+.about-col-2{
+
+    background-color: #dcdcdc;
+    border-radius: 70px 20px;
+   /* height: 55vh; */
+    padding-top:15px;
+    margin-top: 5%;
+    border: 5px solid gray;
+
+    
+}
+.about-my-data{
+    display: flex;
+    padding: 10px;
+    padding-top: 5%;
+}
+.bio{
+    padding-left:40%;
+    padding-top: 10%;
+}
+
+
+.about-web i{
+    font-size: 400%;
+    padding: 15px;
+}
+.about-web p{
+    padding:5%;
+
+    
+}
+#icon-1{
+    color: hsl(251, 78%, 38%);
+    font-size: 350%;
+}
+
+.about-bio{
+    text-align: center;
+   
+}
+.about-my-data {
+    padding: 15px;  
+}
+.about-my-data p{
+
+padding: 7px;}
+
+
+/*form section*/
+.form{
+    padding-top: 5%;
+    
+   
+}
+.container-form{
+         width:100%;
+         /*
+         display: flex; */
+         padding-left: 10%;
+         
+		 }
+.form h1{
+    padding-left: 40%;
+    padding-bottom: 5%;
+    color: white;
+}
+	
+.name{
+	  display:flex;
+	  justify-content:space-between;
+      
+      
+    
+      }
+
+
+.form-row{
+	      width:100%;
+          
+          
+         }
+
+.form-form h3{
+    padding: 10px;
+    text-align: center;
+    padding-top: 5%;
+    
+}         
+.form-name{
+	width:100%;
+	padding:15px;
+}
+.form-name input{
+	            width:100%;
+		        padding:10px;
+			   }
+.form-subject{
+			width:100%;
+			padding:20px;
+            
+				}
+.form-subject input,.form-subject textarea{
+											width:100%;
+											padding:10px;		
+											}
+			
+			   
+
+		   
+ .form-button button{
+                    color:white;
+					border:20px;
+					background-color: hsl(251, 78%, 38%);
+					padding:10px 20px;
+					border-radius:40px 15px;
+					padding-left:20px;
+                    border: 3px solid gray;
+					}
+
+ .form-button  button:hover{
+                        background-color: plum;
+                    }                    
+.form-button {
+			padding-left:30%;
+			padding-bottom:20px;
+			padding-top:10px;
+            }
+
+ .form-form{
+    background-color:#dcdcdc;
+    border-radius: 90px 30px;
+    border: 5px solid gray; 
+    width: 80%;
+    
+    
+ }           
+
+
+ .form-form-1{
+    background-color:#dcdcdc;
+  /*  width: 90%;*/
+    border-radius: 90px 30px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 5px solid gray;
+    padding: 20px;
+    
+
+    
+
+ }
+ .form-form-1 h3 {
+    padding-top: 5%;
+    padding: 10px;
+    padding-left: 10%;
+ }
+
+ .form-form-1 p {
+    padding-top: 10%;
+    padding: 5px;
+    padding-left: 10%;
+ }
+
+ .form-row-1{
+    width:40%;
+    height:70%;
+    
+    
+   }
+.form-col-1{
+    height: 80%;
+    width: 100%;
+    padding-left: 5%;
+    
+}
+.form-col-2{
+    padding-left: 5%;
+}
+.email-1{
+    padding:3px;
+    /* padding-top: 5%; */
+    padding-left: 10%; 
+    
+} 
+span{
+    font-size:15px;
+}
+p{
+    font-size:15px;   
+}
+
+
+#icon{
+    color: hsl(251, 78%, 38%);
+    font-size: 150%;
+    
+}
+/*footer section*/
+
+#footer{
+padding-top: 5%;
+padding-bottom: 5px;
+
+}
+.container-footer{
+    background-color:#dcdcdc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   /* width:75%; */
+    text-align: center;
+    
+    border: 5px solid gray;
+
+    
+}
+
+.footer-name{
+    color:hsl(251, 78%, 38%);
+    font-size: 100%;
+}
+
+
+
+body {
+    background-color: purple;
+    
+}
+
+/* 
+ .collapse {
+ padding-left: 15%;
+}  */
+
+.headh {
+    color: gray;
+    padding-left: 40px;
+    
+}
+
+
+.btn:hover {
+    color:  hsl(251, 78%, 38%);
+}
+
+.ic {
+    padding-right: 10px;
+}
+
+.navbar-brand {
+    font-size: 15px;
+    color: white;
+}
+
+.navbar-toggler {
+    color: white;
+
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.header-container {
+    width: 100%;
+    margin: auto;
+    border: 3px solid gray; 
+   
+}

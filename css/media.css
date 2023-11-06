@@ -1,0 +1,141 @@
+
+@media(max-width:960px){
+       
+        
+/* home section*/
+                .home-col {
+                          display: flex;
+                          flex-wrap:wrap;
+                          }
+                 #home{
+                           padding:5px;
+                           padding-left:5%;
+                            width:100%;
+                            height: 100vh;
+                         }
+/*education and skills section*/
+                .edu-row{
+                         display: flex;
+                         flex-wrap: wrap;
+                         width:100%;
+                        }
+                .edu-col{
+                          width: 100%;
+                          padding-right:17%;
+                        }
+                 .skill-card{
+                              width:100%;
+                              padding-right:7%;
+                              height: 90vh;
+                            }
+                .edu-col-2{
+                              width:80%;
+                          }
+/*my creation section*/
+                .web-1{
+                         width:100%;
+                         padding-left:3%
+                      }
+ /*about-me section*/
+                 .about-row{
+                          display: flex;
+                         flex-wrap: wrap;
+                           }
+
+                 .about-col{
+                             width: 100%;
+                            margin-left: 5%;
+                             height: 50vh;    
+                             }
+    
+                .about-col-2{
+                             width:100%;
+                             height: 60vh; 
+                                
+                             }
+   
+/*contact section*/
+                .container-form{
+                                  display: flex;
+                                  flex-wrap: wrap;
+                               }
+
+                .form-form-1{
+                        width: 250%;
+                        margin-bottom: 10%;
+                            }
+     /*footer section*/
+                .container-footer{
+                                 width:100%;
+                                 }    
+}
+
+  
+
+
+
+@media(min-width:1000px){
+    
+ /* home section*/
+                .home-col {
+                         display: flex;
+                            }
+                 #home{
+                       width:80%;  
+                        
+                        }
+  
+/*education and skills section*/
+            .edu-row{
+                     display: flex;
+                     }
+            .edu-col{
+                      width: 50%;
+                     }
+             .edu-col-2{
+                      width:70%;
+                      height: 70vh;
+                      
+                        }
+             .skill-card{
+                          width:70%;
+                          height: 125vh;
+                         }
+
+    /*my creation section*/
+             .web-1{
+                    width:40%;
+                    margin-left: 5%;
+                   }
+     /*about-me section*/
+                    .about-row{
+                               display: flex;
+    
+                                }
+                    .about-col{
+                                 width: 35%;
+                                height: 85vh;
+                                }
+                    .about-col-2{
+                                   height:85vh;
+        
+                                }
+    
+    /*contact section*/
+                    .container-form{
+                                  display: flex;
+                                  padding-left: 10%;
+                                     }
+                    .form-form-1{
+                                 width: 100%;
+                                }
+                    .about-col-2{
+                                  width:40%;
+                        
+                                  }
+    /*footer section*/
+                    .container-footer{
+                                     width:100%;
+                                     }    
+}
+        

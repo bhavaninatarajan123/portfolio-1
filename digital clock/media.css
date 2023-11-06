@@ -1,0 +1,108 @@
+
+@media(max-width:960px){
+
+    .dig-row{
+        width: 80%;
+        height: 35vh;
+        border-radius :20px 100px;
+        
+    }
+
+    .clock {
+        
+        top: 20%;
+        left:13%;
+        padding-left: 10%;
+        
+        font-size: 30px;    
+    }
+
+    .digital-day {
+        display: flex;
+        padding-left: 20%;
+        padding-top: 15%;
+        color: red;
+        
+    }
+    .day-2{
+        color:#ffff;
+        padding: 20px;
+        font-size: 30px;
+    }
+
+
+
+    
+.date-10{
+    font-size: 20px;
+     padding-left:5%;
+     padding-top:20%;
+     padding: 10px;
+    
+ }
+
+
+ .today-day{
+    display: flex;
+    padding-top:25%;
+    padding-left:25%;
+    font-size:60%;
+}
+
+.analog{
+    padding-left:10px;
+}
+
+}
+@media(min-width:1000px){
+
+    .dig-row{
+        width:50%;
+        height: 80vh;
+        border-radius :20px 200px;  
+    }
+    .clock {
+       
+        top: 40%;
+        left:10%;
+        padding-left: 20%;
+        
+        font-size: 80px;  
+    }
+
+    
+.date-10{
+    font-size: 30px;
+     padding-left:5%;
+     padding-top:9%;
+     padding: 10px;
+    
+ }
+
+
+
+ .digital-day {
+    display: flex;
+    padding-left: 30%;
+    padding-top: 10%;
+    color: red;
+    
+}
+.day-2{
+    color:#ffff;
+    padding: 20px;
+    font-size: 30px;
+}
+ .today-day{
+    display: flex;
+    padding-top:30%;
+    padding-left: 13%;
+    font-size:200%;
+}
+
+.analog{
+    padding-left:20px;
+}
+
+
+}

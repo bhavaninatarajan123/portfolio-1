@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#add-card{
+    background-color: #ffff;
+   /* width: 20%; */
+    border: 4px solid purple;
+    text-align: center;
+    margin: auto;
+    
+}
+p{
+    padding: 5px;
+}
+
+.btn-1{
+    
+    padding-bottom: 3%;
+}
+.button-1{
+    padding: 10px;
+    background-color: #dcdcdc;
+    border: 3px solid gray;
+
+}
+.button-1:hover{
+    background-color: #ffff;
+}
+.doller{
+    color: red;
+    font-size: 25px;
+    padding:10px;
+}
+
+
+@media(min-width:320px){
+    #add-card{
+        width: 100%; 
+           
+    }
+}
+
+@media(min-width:660px){
+    #add-card{
+        width: 50%;    
+    }
+}
+
+@media(min-width:1000px){
+    #add-card{
+        width: 20%;    
+    }
+}
